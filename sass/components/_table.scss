@@ -1,0 +1,11 @@
+table {
+  width: 100%;
+  tr {
+    &:hover {
+      background-color: $list-bg-color-hover;
+    }
+  }
+  td {
+    padding: 15px;
+  }
+}

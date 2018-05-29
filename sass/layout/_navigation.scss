@@ -1,0 +1,64 @@
+nav {
+  background-color: $slate;
+  height: $navbar-height;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  .nav-left {
+    flex: 1;
+    padding-left: 30px;
+  }
+  .nav-right {
+    flex: 1;
+    padding-right: 30px;
+    text-align: right;
+
+    ul {
+      text-align: left;
+    }
+  }
+
+  .logo {
+    height: 40px;
+  }
+
+  ul {
+    display: flex;
+  }
+
+  .nav-menu > li > a,
+  .dropdown-toggle {
+    font-size: 0.8125rem;
+    line-height: 1;
+    padding: 14px 15px;
+    border-radius: $border-radius-sm;
+    cursor: pointer;
+    &:hover, &:focus {
+      color: $white;
+      background-color: rgba($white, 0.08);
+
+    }
+  }
+
+  .nav-menu > li > a {
+    color: rgba($white, 0.5);
+    text-decoration: none;
+  }
+  .nav-menu > li:first-child a {
+    margin-left: -15px;
+  }
+  .nav-menu > li.active a {
+    color: $white;
+  }
+
+  .dropdown-toggle {
+    color: $white;
+    padding-right: 36px;
+    border: none;
+    background: url("../img/icons/ic-caret-down-white.svg") no-repeat right 12px center transparent;
+  }
+}

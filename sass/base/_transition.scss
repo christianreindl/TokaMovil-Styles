@@ -1,0 +1,12 @@
+
+.close-button, .reveal-action, input, .button {
+  transition: box-shadow 0.15s ease;
+
+}
+.dropdown-pane {
+  transition: all 0.25s ease;
+
+  ul li {
+    transition: transform 0.35s ease;
+  }
+}

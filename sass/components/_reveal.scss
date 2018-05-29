@@ -1,0 +1,94 @@
+$modal-padding: 30px;
+
+.reveal-overlay {
+  background-color: rgba($black, 0.66);
+}
+
+.reveal {
+  position: static;
+  background-color: $white;
+  border: 1px solid $gray-85;
+  box-shadow: 0 10px 20px -5px rgba($black, 0.30);
+  border-radius: $border-radius-md;
+  padding: 0;
+
+  &.tiny, &.small, &.large {
+    margin-top: 100px;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.reveal-header {
+  padding: $modal-padding $modal-padding 0;
+}
+.reveal-body {
+  padding: $modal-padding $modal-padding 50px;
+  p {
+    color: $gray-25;
+    margin-bottom: 35px;
+  }
+}
+.reveal-actions {
+  display: flex;
+}
+
+.reveal-action {
+  flex: 1;
+  text-align: center;
+  font-size: 0.875rem;
+  padding: 15px;
+  border: none;
+  background-color: transparent;
+  border-top: 1px solid $gray-85;
+  border-left: 1px solid $gray-90;
+  cursor: pointer;
+  &:first-child {
+    border-left: none;
+  }
+
+  &:hover, &:focus {
+    background-color: rgba($gray-base, 0.05);
+  }
+  &:focus {
+    box-shadow: 0 0 0 $focus-shadow-width rgba($gray-base, 0.05);
+    outline: none;
+  }
+  &:active {
+    background-color: rgba($gray-base, 0.1);
+  }
+
+  &.-primary {
+    @include reveal-action-intent($brand);
+  }
+  &.-danger {
+    @include reveal-action-intent($danger);
+  }
+}
+
+.close-button {
+  width: 60px;
+  height: 60px;
+  top: 16px;
+  right: 16px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba($white, 0.15);
+  color: $white;
+  font-size: 30px;
+
+  &:hover, &:focus {
+    background-color: rgba($white, 0.2);
+    color: $white;
+  }
+  &:focus {
+    box-shadow: 0 0 0 $focus-shadow-width rgba($white, 0.25);
+    outline: none;
+  }
+  span {
+    position: relative;
+    top: -2px;
+  }
+}

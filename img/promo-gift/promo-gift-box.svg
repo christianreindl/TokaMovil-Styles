@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="96px" height="64px"
+	 viewBox="0 0 96 64" style="enable-background:new 0 0 96 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#0FD09F;}
+	.st2{fill:#DBF8F1;}
+	.st3{fill:#00B184;}
+	.st4{fill:#02B88A;}
+	.st5{fill:#00906B;}
+</style>
+<title>promo-gift-box</title>
+<desc>Created with Sketch.</desc>
+<g id="Symbols">
+	<g id="promo-gift-box">
+		<g id="Group-2">
+			<g id="Rectangle-28-Copy">
+				<path class="st0" d="M5,63.5c-2.5,0-4.5-2-4.5-4.5V0.5h60.3v63H5z"/>
+				<path class="st1" d="M60.3,1v62H5c-2.2,0-4-1.8-4-4V1H60.3 M61.3,0H0v59c0,2.8,2.2,5,5,5h56.3V0L61.3,0z"/>
+			</g>
+			<g id="Rectangle-28-Copy-2">
+				<path class="st2" d="M60.7,63.5v-63h34.8V59c0,2.5-2,4.5-4.5,4.5H60.7z"/>
+				<path class="st1" d="M95,1v58c0,2.2-1.8,4-4,4H61.2V1H95 M96,0H60.2v64H91c2.8,0,5-2.2,5-5V0L96,0z"/>
+			</g>
+			<rect id="Rectangle-2" x="23" class="st1" width="11" height="64"/>
+			<rect id="Rectangle-3" x="23" class="st3" width="11" height="16"/>
+			<rect id="Rectangle-2-Copy-2" x="78" class="st4" width="6" height="64"/>
+			<rect id="Rectangle-3-Copy" x="78" class="st5" width="6" height="16"/>
+		</g>
+	</g>
+</g>
+</svg>

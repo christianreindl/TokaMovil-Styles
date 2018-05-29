@@ -1,0 +1,62 @@
+//Colors
+
+$black: #000000;
+$white: #FFFFFF;
+
+$slate: #12181F;
+$slate-90: #E2E3E8;
+$slate-95: rgba($slate, 0.05);
+
+$gray-base: #333333;
+$gray-25: rgba($gray-base, 0.75);
+$gray-50: rgba($gray-base, 0.5);
+$gray-60: rgba($gray-base, 0.4);
+$gray-75: rgba($gray-base, 0.25);
+$gray-85: rgba($gray-base, 0.15);
+$gray-90: rgba($gray-base, 0.1);
+
+$light-gray: #F7F8FC;
+
+$brand-darker: #01A487;
+$brand-dark: #02BA92;
+$brand: #0FD09F;
+$brand-light: #08E7A1;
+$brand-light: #00FFA3;
+
+$danger: #FF5121;
+$warning: #FFD543;
+
+$base-bg-color: $light-gray;
+
+//Fonts
+
+//$font-family-sans-serif: 'Roboto', sans-serif;
+$font-family-sans-serif: 'Karla', sans-serif;
+$font-family-mono: 'Roboto Mono', monospace;
+
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 600;
+$font-weight-bold: 600;
+
+$font-size-base: 0.875rem;
+$font-size-sm: 0.8125rem;
+
+$line-height-base: 1.429;
+$letter-spacing-base: -0.025em;
+$letter-spacing-md: 0;
+
+$border-radius-sm: 3px;
+$border-radius-md: 6px;
+
+$focus-shadow-width: 2px;
+
+
+$panel-padding-v: 25px;
+$panel-padding-h: 20px;
+
+
+$grid-container-with: 960px;
+$navbar-height: 70px;
+
+$list-bg-color-hover: rgba($black, 0.03);

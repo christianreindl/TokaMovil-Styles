@@ -1,0 +1,8 @@
+select {
+  @include button-base();
+  padding-right: 32px;
+
+  background: url("../img/icons/ic-caret-down-black.svg") no-repeat right 10px
+    center $white;
+  background-size: 10px;
+}

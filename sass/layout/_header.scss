@@ -1,0 +1,13 @@
+header {
+  height: 200px;
+  padding: $navbar-height 0 20px;
+  display: flex;
+  align-items: center;
+  color: $white;
+  background-color: $slate;
+  margin-bottom: 30px;
+
+  .page-subtitle {
+    color: rgba($white, 0.5);
+  }
+}

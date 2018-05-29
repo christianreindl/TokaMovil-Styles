@@ -1,0 +1,39 @@
+.button {
+  @include button-base();
+
+  &.-primary {
+    @include button-intent($brand, $brand, $brand-dark);
+  }
+
+  .fa,
+  .far {
+    float: left;
+    margin-left: -3px;
+    margin-right: 8px;
+  }
+
+  .input-wrapper & {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    color: $brand;
+    padding: 8px 10px;
+    background-color: rgba($brand, 0.1);
+    border: none;
+
+    &:hover {
+      background-color: $brand;
+      box-shadow: none;
+      color: $white;
+    }
+    &:focus {
+      box-shadow: 0 0 0 $focus-shadow-width rgba($brand, 0.2);
+    }
+    &:active {
+      background-color: $brand-dark;
+    }
+    &.-large {
+      padding: 12px;
+    }
+  }
+}

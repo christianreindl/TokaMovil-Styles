@@ -1,0 +1,28 @@
+.form-group {
+  display: block;
+  margin-bottom: 25px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  input {
+    display: block;
+    margin-top: 5px;
+  }
+
+  &.-inline {
+    display: flex;
+    align-items: center;
+
+    label {
+      width: 33%;
+    }
+  }
+}
+
+
+.input-wrapper {
+  display: block;
+  position: relative;
+}

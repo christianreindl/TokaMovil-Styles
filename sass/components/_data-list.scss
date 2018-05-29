@@ -1,0 +1,27 @@
+.data-list {
+  padding: 5px;
+
+  li {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: $border-radius-sm;
+    .key {
+      flex: 1;
+      max-width: 240px;
+      color: $gray-50;
+    }
+    .value {
+      flex-grow: 1;
+    }
+
+    &:hover {
+      background-color: $list-bg-color-hover;
+    }
+
+    &.-right-aligned .value {
+      text-align: right;
+    }
+  }
+}
