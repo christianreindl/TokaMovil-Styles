@@ -28,7 +28,7 @@
       background-color: $list-bg-color-hover;
     }
     &:focus {
-      box-shadow: 0 0 0 $focus-shadow-width rgba($black, 0.1);
+      box-shadow: $focus-shadow-default;
       outline: none;
     }
     &:active {

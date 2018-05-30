@@ -1,0 +1,13 @@
+a.link {
+  color: $brand;
+  text-decoration: none;
+
+  &:hover {
+    color: $brand-dark;
+    text-decoration: underline;
+  }
+
+  &:active {
+    color: $brand-darker;
+  }
+}

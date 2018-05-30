@@ -27,7 +27,7 @@
       color: $white;
     }
     &:focus {
-      box-shadow: 0 0 0 $focus-shadow-width rgba($brand, 0.2);
+      box-shadow: $focus-shadow-active;
     }
     &:active {
       background-color: $brand-dark;
